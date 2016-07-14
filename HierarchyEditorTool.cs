@@ -24,7 +24,7 @@ public class HierarchyGUI
 
 	static void OnHierarchyGUI (int instanceID, Rect selectionRect)
 	{
-		//获取引用
+		//获取GO引用
 		GameObject go = (GameObject)EditorUtility.InstanceIDToObject(instanceID);
 
 		//获取Rect
